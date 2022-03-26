@@ -18,3 +18,17 @@
     margin: 0;
 }
 
+.cart-btn{
+    background-color: rgb(248, 252, 236);
+    color: rgb(96, 145, 0);
+    border: none;
+    width: 100%;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-btn span{
+    padding: 10px;
+    font-size: 25px;
+}

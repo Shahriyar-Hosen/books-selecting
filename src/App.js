@@ -1,7 +1,7 @@
-import AnswerTheQuestion from "./AnswerTheQuestion/AnswerTheQuestion";
+import AnswerTheQuestion from "./Components//AnswerTheQuestion/AnswerTheQuestion";
 import "./App.css";
-import Carts from "./Carts/Carts";
-import Header from "./Header/Header";
+import Carts from "./Components/Carts/Carts";
+import Header from "./Components//Header/Header";
 
 function App() {
   return (

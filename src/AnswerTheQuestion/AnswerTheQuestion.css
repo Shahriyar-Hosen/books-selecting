@@ -1,0 +1,16 @@
+.Answer-the-question{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Answer{
+    background-color: rgb(248, 252, 236);
+    width: 400px;
+    height: 350px;
+    padding: 0 20px ;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    padding-bottom: 0;
+    margin: 50px;
+}

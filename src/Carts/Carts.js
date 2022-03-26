@@ -32,7 +32,6 @@ const Carts = () => {
             </div>
             <div className='selected'>
             <Selected selectedBook={selectedBook}></Selected>
-            
             </div>
             
         </div>

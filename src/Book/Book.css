@@ -32,3 +32,8 @@
     padding: 10px;
     font-size: 25px;
 }
+
+.cart-btn:hover{
+    background-color: rgb(241, 255, 201);
+    border-radius: 25px;
+}

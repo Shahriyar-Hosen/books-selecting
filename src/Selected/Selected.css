@@ -2,11 +2,40 @@
     background-color: rgb(248, 252, 236);
     width: 300px;
     height: 350px;
-    padding: 10px;
+    padding: 0 20px ;
     border: 2px solid yellowgreen;
     border-radius: 10px;
     padding-bottom: 0;
     margin: 50px;
     position: sticky;
     top: 50px;
+}
+
+.choose-btn-1{
+    width: 48%;
+    padding: 10px;
+    margin-right: 5px;
+    color: navy;
+    font-size: medium;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+}
+.choose-btn-1:hover{
+    color: white;
+    background-color: blue;
+}
+.choose-btn-2{
+    width: 48%;
+    padding: 10px;
+    margin-left: 5px;
+    color: blue;
+    font-size: medium;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 10px;
+}
+
+.choose-btn-2:hover{
+    background-color: salmon;
 }

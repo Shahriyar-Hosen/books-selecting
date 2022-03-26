@@ -12,6 +12,8 @@ const Selected = ({selectedBook}) => {
                 key={book.id}
                 ></Select>)
             }
+            <button className='choose-btn-1'>Choose 1 for me</button>
+            <button className='choose-btn-2'>Choose again</button>
         </div>
     );
 };

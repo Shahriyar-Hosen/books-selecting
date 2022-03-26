@@ -20,7 +20,9 @@
   .carts {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 50px;
+    width: 100%;
+    justify-content: center;
+    /* gap: 50px; */
   }
 
   .selected {
@@ -31,8 +33,9 @@
   .books {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
-    margin: 50px auto;
+    width: 100%;
+    justify-content: center;
+    /* gap: 10px; */
     order: 2;
   }
 }
@@ -40,19 +43,17 @@
   .carts {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 50px;
+    justify-items: center;
   }
 
   .selected {
-    margin: auto;
-    order: 2;
+    order: 1;
   }
 
   .books {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    margin: 50px auto;
-    order: 1;
+    order: 2;
   }
 }

@@ -9,8 +9,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin: 50px auto;
+  order: 1;
 }
-.selected {
+
+.selected{
   order: 1;
 }
 
@@ -22,7 +24,8 @@
   }
 
   .selected {
-    order: 2;
+    margin: auto;
+    order: 1;
   }
 
   .books {
@@ -30,7 +33,7 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
     margin: 50px auto;
-    order: 1;
+    order: 2;
   }
 }
 @media only screen and (min-width: 688px) and (max-width: 992px) {
@@ -41,8 +44,7 @@
   }
 
   .selected {
-      width: 100%;
-      margin: auto;
+    margin: auto;
     order: 2;
   }
 

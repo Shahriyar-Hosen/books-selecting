@@ -1,63 +1,63 @@
 [
   {
     "id": 1,
-    "name": "Habaludera jonno programing",
+    "name": "Habaludera Jonno Programing",
     "img": "https://raw.githubusercontent.com/shahriyarhosen/assignment-img/main/Untitled%20design.png",
     "price": "200",
     "category": "programing"
   },
   {
     "id": 2,
-    "name": "Programingyera bolod tu boss",
+    "name": "Programingyera Bolod To Boss",
     "img": "https://raw.githubusercontent.com/shahriyarhosen/assignment-img/main/site%20img.png",
     "price": "220",
     "category": "programing"
   },
   {
     "id": 3,
-    "name": "Programingyera cauddogusti",
+    "name": "Programingyera Cauddogusti",
     "img": "https://raw.githubusercontent.com/shahriyarhosen/assignment-img/main/site%20img%20(1).png",
     "price": "250",
     "category": "programing"
   },
   {
     "id": 4,
-    "name": "Shonali itihas",
+    "name": "Shonali Itihas",
     "img": "https://raw.githubusercontent.com/shahriyarhosen/assignment-img/main/site%20img%20(2).png",
     "price": "500",
     "category": "History"
   },
   {
     "id": 5,
-    "name": "Islamer itihas",
+    "name": "Islamer Itihas",
     "img": "https://raw.githubusercontent.com/shahriyarhosen/assignment-img/main/site%20img%20(3).png",
     "price": "380",
     "category": "History"
   },
   {
     "id": 6,
-    "name": "Pyaradaksikyal sajida 1",
+    "name": "Pyaradaksikyal Sajida 1",
     "img": "https://raw.githubusercontent.com/shahriyarhosen/assignment-img/main/site%20img%20(4).png",
     "price": "180",
     "category": "Islamic"
   },
   {
     "id": 7,
-    "name": "Pyaradaksikyal sajida 2",
+    "name": "Pyaradaksikyal Sajida 2",
     "img": "https://raw.githubusercontent.com/shahriyarhosen/assignment-img/main/site%20img%20(5).png",
     "price": "220",
     "category": "Islamic"
   },
   {
     "id": 8,
-    "name": "Bela phurabara age",
+    "name": "Bela Phurabara Age",
     "img": "https://raw.githubusercontent.com/shahriyarhosen/assignment-img/main/site%20img%20(7).png",
     "price": "220",
     "category": "Islamic"
   },
   {
     "id": 9,
-    "name": "Golpogulo onnorokom",
+    "name": "Golpogulo Onnorokom",
     "img": "https://raw.githubusercontent.com/shahriyarhosen/assignment-img/main/site%20img%20(6).png",
     "price": "230",
     "category": "Islamic"

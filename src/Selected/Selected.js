@@ -1,9 +1,17 @@
 import React from 'react';
+import Select from '../Select/Select';
+import './Selected.css';
 
-const Selected = () => {
+const Selected = ({selectedBook}) => {
     return (
-        <div>
-            <h1>these is selected books cart</h1>
+        <div className='selected-book'>
+            <h2>Selected Books</h2>
+            {
+                selectedBook.map((book) => <Select 
+                book={book}
+                key={book.id}
+                ></Select>)
+            }
         </div>
     );
 };

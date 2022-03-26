@@ -5,6 +5,13 @@ import './Carts.css';
 
 const Carts = () => {
     const [books, setBooks] = useState([])
+    const [selectedBook, setSelectedBook] = useState([])
+
+    const addToSelected = (book) => {
+        const selectedAllBook = [...selectedBook, book];
+        setSelectedBook(selectedAllBook)
+    }
+
 
     useEffect(() => {
       fetch('data.json')
@@ -12,15 +19,22 @@ const Carts = () => {
       .then(data =>setBooks(data))
     }, [])
     
-    console.log(books);
     return (
         <div className='carts'>
             <div className='books'>
             {
-                books.map((book) => <Book key={book.id} book={book}></Book>)
+                books.map((book) => <Book 
+                key={book.id} 
+                book={book}
+                addToSelected={addToSelected}
+                ></Book>)
             }
             </div>
-            <Selected className='selected'></Selected>
+            <div className='selected'>
+            <Selected selectedBook={selectedBook}></Selected>
+            
+            </div>
+            
         </div>
     );
 };

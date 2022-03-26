@@ -1,0 +1,12 @@
+.selected-book{
+    background-color: rgb(248, 252, 236);
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    padding-bottom: 0;
+    margin: 50px;
+    position: sticky;
+    top: 50px;
+}

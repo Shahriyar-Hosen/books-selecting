@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Book Selection
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link to the live site of this project[Book Selection](https://lucky-one-confusing-books.netlify.app/).
 
 ## Available Scripts
 

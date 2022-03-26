@@ -20,7 +20,7 @@ const Carts = () => {
                 books.map((book) => <Book key={book.id} book={book}></Book>)
             }
             </div>
-            <Selected></Selected>
+            <Selected className='selected'></Selected>
         </div>
     );
 };

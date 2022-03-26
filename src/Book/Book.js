@@ -3,7 +3,6 @@ import './Book.css';
 import { MdOutlineAddShoppingCart } from 'react-icons/md';
 
 const Book = ({book}) => {
-    console.log(book);
     const {name, img, category, price} = book;
     return (
         <div className='book'>

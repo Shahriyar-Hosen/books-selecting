@@ -8,8 +8,14 @@ const Carts = () => {
     const [selectedBook, setSelectedBook] = useState([])
 
     const addToSelected = (book) => {
-        const selectedAllBook = [...selectedBook, book];
-        setSelectedBook(selectedAllBook)
+        const exists = selectedBook.find((selectBooks) => selectBooks.id === book.id);
+        if (!exists) {
+            const selectedAllBook = [...selectedBook, book];
+            setSelectedBook(selectedAllBook)
+        }
+        else{
+            console.log('These items is already added');
+        }
     }
 
 

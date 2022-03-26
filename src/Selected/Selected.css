@@ -1,7 +1,7 @@
 .selected-book{
     background-color: rgb(248, 252, 236);
     width: 300px;
-    height: 350px;
+    height: 320px;
     padding: 0 20px ;
     border: 2px solid yellowgreen;
     border-radius: 10px;
@@ -9,6 +9,11 @@
     margin: 50px;
     position: sticky;
     top: 50px;
+}
+
+.selected-book h1{
+    text-align: center;
+    color: navy;
 }
 
 .choose-btn-1{

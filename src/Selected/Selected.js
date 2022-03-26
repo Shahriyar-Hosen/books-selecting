@@ -37,7 +37,7 @@ const Selected = ({selectedBook, setSelectedBook}) => {
   }
     return (
         <div className='selected-book'>
-            <h2>Selected Books</h2>
+            <h1>Selected Books</h1>
             {
                 slicedItems.map((book) => <Select 
                 book={book}

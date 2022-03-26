@@ -3,11 +3,10 @@ import './Choose.css'
 
 const Choose = ({chooseBook}) => {
     const {img, name} = chooseBook;
-    console.log(chooseBook)
     return (
         <div className='choose'>
             <img src={img} alt="" />
-            <h3>{name} can read this book!!!</h3>
+            <h3>Read the book {name} !!!</h3>
         </div>
     );
 };

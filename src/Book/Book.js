@@ -8,12 +8,22 @@ const Book = ({book, addToSelected}) => {
     return (
         <div className='book'>
             <img src={img} alt="" />
+
             <div className='book-info'>
             <h2>{name}</h2>
             <p>Category: {category}</p>
             <h4>Price: {price} <small>BDT</small></h4>
             </div>
-            <button onClick={() => addToSelected(book)} className='cart-btn'><p>Add To Cart</p> <span><MdOutlineAddShoppingCart /></span></button>
+            
+            <button 
+            onClick={() => addToSelected(book)} 
+            className='cart-btn'
+            >
+                <p>Add To Cart</p>
+             <span>
+                 <MdOutlineAddShoppingCart />
+                 </span>
+             </button>
         </div>
     );
 };

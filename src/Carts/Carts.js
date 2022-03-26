@@ -31,7 +31,10 @@ const Carts = () => {
             }
             </div>
             <div className='selected'>
-            <Selected selectedBook={selectedBook}></Selected>
+            <Selected 
+            selectedBook ={selectedBook}
+            setSelectedBook = {setSelectedBook}
+            ></Selected>
             </div>
             
         </div>

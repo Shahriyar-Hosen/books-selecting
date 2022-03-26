@@ -18,7 +18,7 @@ const customStyles = {
     },
   };
 
-const Selected = ({selectedBook}) => {
+const Selected = ({selectedBook, setSelectedBook}) => {
     const [chooseBook, setChooseBook] = useState([])
     const slicedItems = selectedBook.slice(0,4);
 
@@ -45,8 +45,14 @@ const Selected = ({selectedBook}) => {
                 ></Select>)
             }
             
-            <button onClick={() => chooseOne(slicedItems)} className='choose-btn-1'>Choose 1 for me</button>
-            <button className='choose-btn-2'>Choose again</button>
+            <button 
+            onClick={() => chooseOne(slicedItems)} 
+            className='choose-btn-1'
+            >Choose 1 for me</button>
+            <button 
+            className='choose-btn-2'
+            onClick={() => setSelectedBook([])}
+            >Choose again</button>
 
             <div className='modal-style'>
             <Modal
